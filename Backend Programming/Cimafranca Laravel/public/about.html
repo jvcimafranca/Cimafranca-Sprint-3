@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kefi Cafe | About Us</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display SC' rel='stylesheet'>
+    
+</head>
+<!-- header section -->
+<body>
+    <header class="header">
+
+        <a href="index.html" class="logo">
+    <img href="index.html" src="../image/kefi_logo.png" alt="Kefi Logo">
+    </a>
+
+    <nav class="navbar menu-btn">
+        <a href="index.html">Home</a>
+    </nav>
+
+    <nav class="navbar menu-btn">
+
+        <a href="menu.html">Desserts, Coffee
+            <br>& More</a>
+    </nav>
+
+    <nav class="navbar menu-btn">
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <nav class="navbar menu-btn">
+        <a href="reservation.html">Dine with Us</a>
+    </nav>
+    
+    </header>
+
+<!-- about section -->
+    <section class="about" id="about">
+
+        <h1 class="heading"> about us <span>why choose us</span> </h1>    
+
+        <div class="row">
+
+            <div class="image">
+                <img src="image/kefi_logo.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title"> The Company </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse et commodi, ad, doloremque obcaecati maxime quam minima dolore mollitia saepe quos, debitis incidunt. Itaque possimus adipisci ipsam harum at autem.</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons-container">
+                    <div class="icons">
+                        <img src="image/about-icon-1.png" alt="">
+                        <h3>quality products</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="image/about-icon-2.png" alt="">
+                        <h3>Branches</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="book" id="book">
+
+        <h1 class="heading"> Inquiry <span>Ask a Question</span> </h1>
+       <!--
+        <form id = "inquiry-form" action="">
+            <input type="text" placeholder="Name (Required)" id="name"class="box">
+            <input type="email" placeholder="Email (Required)" id="email" class="box">
+            <input type="number" placeholder="Phone Number (Required)" id="number" class="box">
+            <textarea name="" placeholder="Message/ Question (Required)" class="box" id="" cols="30" rows="10"></textarea>
+    
+            <input type="submit" value="Submit Question" class="btn">
+    
+        </form> -->
+        
+        <form action="addInquiry.php" method="get" name="inquiry-form" >
+            <input type="text" placeholder="Name (Required)" name ="name"class="box">
+            <input type="email" placeholder="Email (Required)" name="email" class="box">
+            <input type="number" placeholder="Phone Number (Required)" name="phone" class="box">
+            <textarea placeholder="Message/ Question (Required)" class="box" name="message" cols="30" rows="10"></textarea>
+    
+            <input type="submit" value="Submit Question" class="btn">
+    
+        </form> 
+        
+    </section>
+
+    <!-- footer section  -->
+    <div class="border"></div>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Iloilo City </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Mandurriao </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> La-Paz </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Molo </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Pavia </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="menu.html"> <i class="fas fa-arrow-right"></i> menu </a>
+                <a href="about.html"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="reservation.html"> <i class="fas fa-arrow-right"></i> reserve </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> 330 - * * * * </a>
+            <a href="#"> <i class="fas fa-phone"></i> +639 * * * * * * * * * </a>
+                <a href="#"> <i class="fas fa-envelope"></i> Lovinthekefimagic@yourheart.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> Iloilo City, Philippines = 5000 </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> Kefi Cafe </a>
+                <a href="#"> <i class="fab fa-twitter"></i> @KefiCafe_magic </a>
+                <a href="#"> <i class="fab fa-instagram"></i> @KefiCafe_magic </a>
+                
+            </div>
+
+        </div>
+
+        <div class="credit"><span>JV RENZ CIMAFRANCA</span> | all rights reserved  </div>
+
+    </section>
+
+<!-- js file link -->
+<script src="js/inquiry.js"></script>
+
+</body>
+</html>
